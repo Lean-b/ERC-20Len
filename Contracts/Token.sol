@@ -2,9 +2,9 @@
 pragma solidity ^0.8.9;
 
 import "Contracts/IERC20.sol";
-import "Contracts/Ownable.sol";
 
-contract Token is IERC20 ,Ownable{
+
+contract Token is IERC20{
     string private constant _name = "Lean";
     string private constant _symbol = "LEN";
     uint8 private constant _decimals = 18;
